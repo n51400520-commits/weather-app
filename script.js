@@ -55,7 +55,6 @@ function renderWeather(data) {
   descEl.textContent = `Сипаттама: ${data.weather[0].description}`;
   humidityEl.textContent = `Ылғалдылық: ${data.main.humidity}%`;
 
-  // ❌ Удалено: iconEl.src — ты используешь свою картинку в HTML
   card.classList.remove('hidden');
 }
 
@@ -84,4 +83,5 @@ function renderHistory() {
 }
 
 renderHistory();
+
 
