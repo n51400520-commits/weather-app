@@ -1,4 +1,6 @@
-const apiKey = 'fb1cdf8b5b802197264afb57b3850bcc'; 
+// ✅ Используй актуальный ключ!
+const apiKey = 'fb1cdf8b5b802197264af5b7b3850bccc';
+
 const form = document.getElementById('search-form');
 const input = document.getElementById('city-input');
 
@@ -87,4 +89,5 @@ function renderHistory() {
 }
 
 renderHistory();
+
 
