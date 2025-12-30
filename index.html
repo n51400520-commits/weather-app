@@ -1,1 +1,36 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <title>Ауа райы анықтамалығы</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Ауа райы анықтамалығы</h1>
+
+    <form id="search-form">
+      <input id="city-input" type="text" placeholder="Қаланы енгізіңіз" required>
+      <button type="submit">Іздеу</button>
+    </form>
+
+    <section id="result" class="card hidden">
+      <h2 id="city-name"></h2>
+      <p id="temp"></p>
+      <p id="desc"></p>
+      <p id="humidity"></p>
+      <img id="icon" alt="weather icon">
+      <p class="error hidden" id="error"></p>
+    </section>
+
+    <section class="history">
+      <h3>Соңғы қалалар</h3>
+      <ul id="history-list"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
