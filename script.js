@@ -1,4 +1,4 @@
-const apiKey = '9f172a7c37fc6df314e3bec106a9f245'; // ✅ новый API-кілт
+const apiKey = '9f172a7c37fc6df314e3bec106a9f245'; 
 
 const form = document.getElementById('search-form');
 const input = document.getElementById('city-input');
