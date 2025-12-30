@@ -1,5 +1,4 @@
-// ✅ Используй актуальный ключ!
-const apiKey = 'fb1cdf8b5b802197264af5b7b3850bccc';
+const apiKey = 'fb1cdf8b5b802197264af5b7b3850bccc'; // ✅ актуальный API-кілт
 
 const form = document.getElementById('search-form');
 const input = document.getElementById('city-input');
@@ -9,7 +8,6 @@ const cityNameEl = document.getElementById('city-name');
 const tempEl = document.getElementById('temp');
 const descEl = document.getElementById('desc');
 const humidityEl = document.getElementById('humidity');
-const iconEl = document.getElementById('icon');
 const errorEl = document.getElementById('error');
 const historyList = document.getElementById('history-list');
 
@@ -57,10 +55,7 @@ function renderWeather(data) {
   descEl.textContent = `Сипаттама: ${data.weather[0].description}`;
   humidityEl.textContent = `Ылғалдылық: ${data.main.humidity}%`;
 
-  const iconCode = data.weather[0].icon;
-  iconEl.src = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
-  iconEl.alt = data.weather[0].main;
-
+  // ❌ Удалено: iconEl.src — ты используешь свою картинку в HTML
   card.classList.remove('hidden');
 }
 
@@ -89,5 +84,4 @@ function renderHistory() {
 }
 
 renderHistory();
-
 
