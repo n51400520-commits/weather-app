@@ -1,4 +1,3 @@
-const apiKey = '9f172a7c37fc6df314e3bec106a9f245';
 const apiKey = '9f172a7c37fc6df314e3bec106a9f245'; 
 
 const form = document.getElementById('search-form');
