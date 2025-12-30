@@ -1,4 +1,4 @@
-const apiKey = 'СІЗДІҢ_API_KEY'; // OpenWeatherMap-тан алған кілтіңізді қойыңыз
+const apiKey = 'fb1cdf8b5b802197264afb57b3850bcc'; 
 const form = document.getElementById('search-form');
 const input = document.getElementById('city-input');
 
